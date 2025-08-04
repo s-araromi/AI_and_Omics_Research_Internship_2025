@@ -33,3 +33,4 @@ str(patient_info)
 # Save the cleaned dataset
 # To be saved in the "clean_data" folder.
 write.csv(patient_info, file = "clean_data/patient_info_clean.csv", row.names = FALSE)
+
